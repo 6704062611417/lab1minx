@@ -1,22 +1,20 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
-{
-    int a = 5;
-    int b = 6;
+{  
+    printf("Input n1:");
+    scanf("%d",&n1);
+    printf("Input n2:");
+    scanf("%d",&n2);
     
-    if(b>a){
-        printf("b greater than a");
-    }else if(a>b){
-        printf("a greater than b");
+    if(n1>n2){
+        int re =  0;
+        re += n1-n2;
+        printf("n1 greater than n2:%d\n",re);
+    }else if(n2>n1){
+        int re =  0;
+        re += n2-n1;
+        printf("n2 greater than n1:%d\n",re);
     }
 
     return 0;
