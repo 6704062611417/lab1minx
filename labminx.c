@@ -2,9 +2,9 @@
 
 int main()
 {   int n1 = 0,n2 = 0;
-    printf("Input n1:");
+    printf("Input n1:\n");
     scanf("%d",&n1);
-    printf("Input n2:");
+    printf("Input n2:\n");
     scanf("%d",&n2);
     
     if(n1>n2){
